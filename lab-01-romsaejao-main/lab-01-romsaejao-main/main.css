@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    text-align: center;
+    width: 700px;
+    margin: 2rem auto;
+    box-shadow: 6px 6px 20px rgb(0, 0, 0.2);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.img{
+    height: 360px;
+    background: url('book.jpg') no-repeat center center;
+    background-position: cover;
+    
+}
+.img2{
+  
+    margin-top: 10px;
+    border-radius: 60px;
+    width: 700px;
+    height: 360px; 
+    background: url('person.jpg') no-repeat center center;
+    background-position: cover;
+}
+
+
+.content {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.content2 {
+    text-align: center;
+    border-bottom: 2px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.footer{
+    background-color: lightgray;
+    padding: 3rem;
+}
+.footer2{
+    background-color: lightgreen;
+    padding: 3rem;
+}
+
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}

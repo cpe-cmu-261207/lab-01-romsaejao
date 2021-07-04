@@ -1,0 +1,35 @@
+
+header,main {
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main {
+    margin-bottom: 2rem;
+}
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: lightskyblue;
+}
+
+
+.poppy {
+    margin-right: 40px;
+}
+
+main {
+    background: cyan;
+    border-radius: 1%;
+    max-width: auto;
+    width: 40%;
+    padding: 1rem 1rem 1rem 1rem;
+}
